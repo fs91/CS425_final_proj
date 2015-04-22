@@ -10,7 +10,8 @@ import java.util.Scanner;
  CS425 final project
  Su Feng, Jiaqi Li, Hanqiao Lu
  
- Sample client to test the server 
+ Sample client to test the server
+ Not part of the project
  */
 public class Client {
 

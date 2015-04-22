@@ -11,7 +11,6 @@ import java.net.Socket;
  Su Feng, Jiaqi Li, Hanqiao Lu
  
  The Server that takes request from the client and operate the databse correspondingly.
- 
  */
 public class Server {
     
@@ -32,7 +31,9 @@ public class Server {
             listener.close();
         }
     }
-    
+    /*
+     Create client handler thread
+     */
     private static class ServerHandler extends Thread {
         private Socket socket;
         private int clientNumber;
